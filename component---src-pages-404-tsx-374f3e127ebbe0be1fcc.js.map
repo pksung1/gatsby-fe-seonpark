@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://my-gatsby-site/./src/pages/404.tsx"],"names":[],"mappings":"wIASA,UANqB,WACnB,OACE","file":"component---src-pages-404-tsx-374f3e127ebbe0be1fcc.js","sourcesContent":["import * as React from \"react\"\n\n// markup\nconst NotFoundPage = () => {\n  return (\n    <h1>Not Found</h1>\n  )\n}\n\nexport default NotFoundPage\n"],"sourceRoot":""}
