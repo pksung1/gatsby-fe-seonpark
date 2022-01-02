@@ -1,5 +1,5 @@
 {
     "componentChunkName": "component---src-pages-index-js",
     "path": "/",
-    "result": {"data":{"site":{"siteMetadata":{"title":"Gatsby Starter Blog"}},"allMarkdownRemark":{"nodes":[{"excerpt":"예전에 계획했던 블로그를 다시 쓰기로했다. 2021년은 많은 일이 있었다. 돌아보면 많은 사람이 떠났고, 많은 사람을 만났다. 기본기에 대한 회의감도 들었다. 이제…","fields":{"slug":"/first-gatsby-post/"},"frontmatter":{"date":"January 02, 2022","title":"2021년을 정리하며","description":"2021년을 정리하며 주절주절"}}]}},"pageContext":{}},
+    "result": {"data":{"site":{"siteMetadata":{"title":"Devseon Blogs"}},"allMarkdownRemark":{"nodes":[{"excerpt":"예전에 계획했던 블로그를 다시 쓰기로했다. 2021년은 많은 일이 있었다. 돌아보면 많은 사람이 떠났고, 많은 사람을 만났다. 기본기에 대한 회의감도 들었다. 이제…","fields":{"slug":"/first-gatsby-post/"},"frontmatter":{"date":"January 02, 2022","title":"2021년을 정리하며","description":"2021년을 정리하며 주절주절"}}]}},"pageContext":{}},
     "staticQueryHashes": ["2841359383","3257411868"]}
