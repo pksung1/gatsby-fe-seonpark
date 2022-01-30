@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/posts/20220130/",
+    "result": {"data":{"site":{"siteMetadata":{"title":"Devseon Blogs"}},"markdownRemark":{"id":"fbfabcc4-dd94-533e-b023-9e1b762f6c48","excerpt":"Gatsby TIL","html":"<h2>Gatsby TIL</h2>","frontmatter":{"title":"2022-01-30 TIL","date":"January 30, 2022","description":"2022-01-30 TIL"}},"previous":{"fields":{"slug":"/first-gatsby-post/"},"frontmatter":{"title":"2021년을 정리하며"}},"next":{"fields":{"slug":"/create-gatsby-blog-01/"},"frontmatter":{"title":"게츠비 블로그 만들기"}}},"pageContext":{"id":"fbfabcc4-dd94-533e-b023-9e1b762f6c48","previousPostId":"103ef1ce-ca06-598c-b694-320b4815e74a","nextPostId":"ad8c7e32-217b-532c-969e-efe25060eac9"}},
+    "staticQueryHashes": ["2841359383","3257411868"]}
