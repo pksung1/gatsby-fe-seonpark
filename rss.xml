@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Devseon's gatsby blog]]></description><link>https://pksung1.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 01 Feb 2022 19:01:17 GMT</lastBuildDate><item><title><![CDATA[여기 블로그 글 마크다운으로 변환하여 velog에 올릴수 있도록하기 (1)]]></title><description><![CDATA[여기있는글을 벨로그로 옮기고싶다. 라는 목표로 개발시작 기능목표 적절한 옵션 보여주기 -d [폴더경로] : 게시물이 있는 폴더경로 -g [구글키] : 구글 API 키, 이곳에 모든 이미지를 업로드함 -o…]]></description><link>https://pksung1.github.io/velog-markdown-uploader/</link><guid isPermaLink="false">https://pksung1.github.io/velog-markdown-uploader/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;여기있는글을 벨로그로 옮기고싶다. 라는 목표로 개발시작&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[Devseon's gatsby blog]]></description><link>https://pksung1.github.io</link><generator>GatsbyJS</generator><lastBuildDate>Fri, 18 Feb 2022 16:06:10 GMT</lastBuildDate><item><title><![CDATA[게츠비 블로그 만들기 2]]></title><description><![CDATA[…]]></description><link>https://pksung1.github.io/create-gatsby-blog-02/</link><guid isPermaLink="false">https://pksung1.github.io/create-gatsby-blog-02/</guid><pubDate>Sat, 19 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;h1&gt;다시 새로 디자인&lt;/h1&gt;
+&lt;p&gt;게츠비를 어느정도 이해를 했고 사용할수 있을것 같아 새로 디자인을 해볼 생각이다.&lt;/p&gt;
+&lt;p&gt;이 블로그의 컨텐츠를 어떤걸 보여줄지 생각하는게 먼저인것같다.&lt;/p&gt;
+&lt;h2&gt;페이지&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;마음대로 보여줄수 있는 포스트
+&lt;ul&gt;
+&lt;li&gt;형태를 달리해서 재밌게 보여주기? (앨범형, 그래프형, 목록형)&lt;/li&gt;
+&lt;li&gt;카테고리로 필터 가능하도록?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;메인화면
+&lt;ul&gt;
+&lt;li&gt;캔버스로 간단한 나의 소개&lt;/li&gt;
+&lt;li&gt;HELLO USER 😀&lt;/li&gt;
+&lt;li&gt;I LIKE FRONTEND 👍&lt;/li&gt;
+&lt;li&gt;I THINK TO MAKE GOOD SERVICE 🤔&lt;/li&gt;
+&lt;li&gt;I LOVE LEARN PROGRAMMING 😍&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;이 3가지를 목표로 개발을 다시 할것이다.&lt;/p&gt;
+&lt;h2&gt;사용하고 싶은 기술&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;canvas를 활용한 기술&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[여기 블로그 글 마크다운으로 변환하여 velog에 올릴수 있도록하기 (1)]]></title><description><![CDATA[여기있는글을 벨로그로 옮기고싶다. 라는 목표로 개발시작 기능목표 적절한 옵션 보여주기 -d [폴더경로] : 게시물이 있는 폴더경로 -g [구글키] : 구글 API 키, 이곳에 모든 이미지를 업로드함 -o…]]></description><link>https://pksung1.github.io/velog-markdown-uploader/</link><guid isPermaLink="false">https://pksung1.github.io/velog-markdown-uploader/</guid><pubDate>Tue, 01 Feb 2022 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;여기있는글을 벨로그로 옮기고싶다. 라는 목표로 개발시작&lt;/p&gt;
 &lt;h2&gt;기능목표&lt;/h2&gt;
 &lt;ul class=&quot;contains-task-list&quot;&gt;
 &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; disabled&gt; 적절한 옵션 보여주기
