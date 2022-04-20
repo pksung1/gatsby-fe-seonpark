@@ -1,13 +1,22 @@
-import * as React from "react"
+import React, {useLayoutEffect} from "react"
 import { Link } from "gatsby"
 import classnames from 'classnames'
 import Menu from './Menu'
+import {toggleDarkMode, DARKMODE_STORAGE_KEY, MODE} from './DarkModeSwitch'
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 
   const rootClasses = classnames('flex-1 overflow-hidden relative', {'pt-12': !isRootPath})
+
+  useLayoutEffect(() => {
+    const mode = localStorage.getItem(DARKMODE_STORAGE_KEY)
+    toggleDarkMode(mode === MODE.dark)
+    return () => {
+      console.log('clean darkmode')
+    }
+  }, [])
 
   return (
     <div data-is-root-path={isRootPath}>
