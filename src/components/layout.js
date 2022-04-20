@@ -1,18 +1,21 @@
-import React, {useLayoutEffect} from "react"
+import React, {useLayoutEffect, useMemo} from "react"
 import { Link } from "gatsby"
 import classnames from 'classnames'
 import Menu from './Menu'
 import {toggleDarkMode, DARKMODE_STORAGE_KEY, MODE} from './DarkModeSwitch'
+
+
+const isBrowser = typeof window !== "undefined"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 
   const rootClasses = classnames('flex-1 overflow-hidden relative', {'pt-12': !isRootPath})
+  const isDarkMode = useMemo(() => isBrowser ? localStorage.getItem(DARKMODE_STORAGE_KEY) === MODE.dark : false, [])
 
   useLayoutEffect(() => {
-    const mode = localStorage.getItem(DARKMODE_STORAGE_KEY)
-    toggleDarkMode(mode === MODE.dark)
+    toggleDarkMode(isDarkMode)
     return () => {
       console.log('clean darkmode')
     }
@@ -25,7 +28,7 @@ const Layout = ({ location, title, children }) => {
           <h1 className="text-xl font-title dark:text-white">
             <Link to="/">{title}</Link>
           </h1>
-          <Menu />
+          <Menu isDarkMode={isDarkMode}/>
         </div>
       </header>
       <main className="flex flex-column dark:bg-gray-900">

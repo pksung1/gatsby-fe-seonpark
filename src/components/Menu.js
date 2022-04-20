@@ -23,7 +23,7 @@ const MENUS = [
   },
 ]
 
-const Menu = () => {
+const Menu = ({isDarkMode}) => {
   const [displayMenu, setDisplayMenu] = useState(false)
   const handleMenuClick = () => {
     setDisplayMenu(!displayMenu)
@@ -36,7 +36,7 @@ const Menu = () => {
     <div className='flex items-center'>
         <div className="flex-row justify-center items-center gap-4 hidden lg:flex dark:text-white">
           {MENUS.map(({to, display}) => <Link to={to} key={to}>{display}</Link>)}
-          <DarkModeSwitch />
+          <DarkModeSwitch isDarkMode={isDarkMode}/>
         </div>
         
         <div className="lg:hidden flex items-center">

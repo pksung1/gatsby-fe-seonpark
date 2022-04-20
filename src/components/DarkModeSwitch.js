@@ -22,8 +22,8 @@ export function toggleDarkMode(isDarkMode = false) {
   localStorage.setItem(DARKMODE_STORAGE_KEY, isDarkMode ? MODE.dark : MODE.white)
 }
 
-const DarkModeSwitch = () => {
-  const [isDark, setIsDark] = useState(localStorage.getItem(DARKMODE_STORAGE_KEY) === MODE.dark)
+const DarkModeSwitch = ({isDarkMode}) => {
+  const [isDark, setIsDark] = useState(isDarkMode)
 
   const wrapperClass = classNames('w-10 rounded-3xl border p-1 transition-all', isDark ? 'border-gray-700 bg-white' : 'border-white bg-gray-700')
   const dotClass = classNames('w-4 h-4 border rounded-full transition-all', isDark ? ' border-gray-700 bg-white' : 'border-white bg-gray-700 translate-x-4')
